@@ -1,0 +1,1535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D15F61D271464C4002183DA /* Tracker.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EB94A4241FEE6000790A33 /* Tracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D15F61F271464C4002183DA /* TrackerSummaryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EFD231246D94E100788671 /* TrackerSummaryManager.swift */; };
+		0D15F620271464C4002183DA /* TrackerString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AB75D12428FF25004080BD /* TrackerString.swift */; };
+		0D15F622271464C4002183DA /* TrackerTableSummaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70651A024362021009BC292 /* TrackerTableSummaries.swift */; };
+		0D15F624271464C4002183DA /* TrackerBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AB75B92422E5F8004080BD /* TrackerBundle.swift */; };
+		0D15F626271464C4002183DA /* TrackerStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F11242E4FA600D5406A /* TrackerStringExtension.swift */; };
+		0D15F627271464C4002183DA /* TrackerTargetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EFD1FE24621D4200788671 /* TrackerTargetApp.swift */; };
+		0D15F628271464C4002183DA /* TrackerDBActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F16242E55B700D5406A /* TrackerDBActivity.swift */; };
+		0D15F629271464C4002183DA /* TrackerLogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7577ED264EA63A00FA0B27 /* TrackerLogLevel.swift */; };
+		0D15F62B271464C4002183DA /* TrackerDoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D73C034258AE5E4005189F9 /* TrackerDoubleExtension.swift */; };
+		0D15F62C271464C4002183DA /* TrackerTableLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706519A24361FF9009BC292 /* TrackerTableLocations.swift */; };
+		0D15F62D271464C4002183DA /* TrackerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB94BC242003EB00790A33 /* TrackerUtils.swift */; };
+		0D15F62E271464C4002183DA /* TrackerClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A5F94424588886001CBF64 /* TrackerClosures.swift */; };
+		0D15F630271464C4002183DA /* TrackerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB957224205C6500790A33 /* TrackerLogger.swift */; };
+		0D15F631271464C4002183DA /* TrackerTimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F0D242E4DC700D5406A /* TrackerTimeUtils.swift */; };
+		0D15F632271464C4002183DA /* TrackerPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F09242E4BBD00D5406A /* TrackerPermissions.swift */; };
+		0D15F633271464C4002183DA /* TrackerRoutinePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F06242E474E00D5406A /* TrackerRoutinePreferences.swift */; };
+		0D15F635271464C4002183DA /* TrackerAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A64493245AFF3F004B2420 /* TrackerAnalyser.swift */; };
+		0D15F637271464C4002183DA /* TrackerDistanceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D73C030258AE4E4005189F9 /* TrackerDistanceUtils.swift */; };
+		0D15F638271464C4002183DA /* TrackerCaloriesUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D73C03B258AEA3F005189F9 /* TrackerCaloriesUtils.swift */; };
+		0D15F639271464C4002183DA /* TrackerLocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79DA8C62461B95500BE5D73 /* TrackerLocationUtils.swift */; };
+		0D15F63A271464C4002183DA /* TrackerBasePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741EFE242E417E00D5406A /* TrackerBasePreferences.swift */; };
+		0D15F63B271464C4002183DA /* TrackerBackendPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EFC2437699200C13AC0 /* TrackerBackendPreferences.swift */; };
+		0D15F63C271464C4002183DA /* TrackerPedometerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A64495245B2841004B2420 /* TrackerPedometerManager.swift */; };
+		0D15F63D271464C4002183DA /* TrackerRealmExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC57337264D6A7400BF5381 /* TrackerRealmExtension.swift */; };
+		0D15F63E271464C4002183DA /* TrackerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706519224361412009BC292 /* TrackerProtocol.swift */; };
+		0D15F641271464C4002183DA /* TrackerTableBriskWalking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706519624361FD9009BC292 /* TrackerTableBriskWalking.swift */; };
+		0D15F642271464C4002183DA /* TrackerSegmentsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A6449C24603C3F004B2420 /* TrackerSegmentsManager.swift */; };
+		0D15F644271464C4002183DA /* TrackerTableSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706519E24362013009BC292 /* TrackerTableSegments.swift */; };
+		0D15F646271464C4002183DA /* TrackerDBBriskWalking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706512024324259009BC292 /* TrackerDBBriskWalking.swift */; };
+		0D15F648271464C4002183DA /* TrackerLocaleUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706AF0E243E002A000EB2B2 /* TrackerLocaleUtils.swift */; };
+		0D15F649271464C4002183DA /* TrackerPreferencesKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F04242E41C700D5406A /* TrackerPreferencesKeys.swift */; };
+		0D15F64A271464C4002183DA /* TrackerOptionsPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1BBBA42562CA6C000AB63F /* TrackerOptionsPreferences.swift */; };
+		0D15F64B271464C4002183DA /* TrackerLocationAccuracy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EE82437614300C13AC0 /* TrackerLocationAccuracy.swift */; };
+		0D15F64C271464C4002183DA /* TrackerDBSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706512824324297009BC292 /* TrackerDBSummary.swift */; };
+		0D15F64D271464C4002183DA /* TrackerUserGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706515F2434E2F7009BC292 /* TrackerUserGender.swift */; };
+		0D15F64E271464C4002183DA /* TrackerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736C659242967D900960D8A /* TrackerExtensions.swift */; };
+		0D15F651271464C4002183DA /* TrackerGson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EF02437658C00C13AC0 /* TrackerGson.swift */; };
+		0D15F652271464C4002183DA /* TrackerUserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F02242E419E00D5406A /* TrackerUserPreferences.swift */; };
+		0D15F654271464C4002183DA /* TrackerStepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EFD207246455B200788671 /* TrackerStepModel.swift */; };
+		0D15F656271464C4002183DA /* TrackerTrackingPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EEA243761AE00C13AC0 /* TrackerTrackingPreferences.swift */; };
+		0D15F657271464C4002183DA /* TrackerPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F00242E418900D5406A /* TrackerPreferences.swift */; };
+		0D15F658271464C4002183DA /* TrackerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB957424205D4400790A33 /* TrackerConstants.swift */; };
+		0D15F65A271464C4002183DA /* TrackerActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A5F9382458715A001CBF64 /* TrackerActivityType.swift */; };
+		0D15F65B271464C4002183DA /* TrackerDBSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70651262432428B009BC292 /* TrackerDBSegment.swift */; };
+		0D15F65C271464C4002183DA /* TrackerDBLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70651222432426F009BC292 /* TrackerDBLocation.swift */; };
+		0D15F65D271464C4002183DA /* TrackerMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A5F94C2459E658001CBF64 /* TrackerMotionManager.swift */; };
+		0D15F65E271464C4002183DA /* TrackerConfigurationPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB4BD6247C46370040AF0B /* TrackerConfigurationPreferences.swift */; };
+		0D15F65F271464C4002183DA /* TrackerUserAgeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70651612434E309009BC292 /* TrackerUserAgeRange.swift */; };
+		0D15F660271464C4002183DA /* TrackerDictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EFD228246B7DD400788671 /* TrackerDictionaryExtension.swift */; };
+		0D15F661271464C4002183DA /* TrackerException.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AB75DC2429007E004080BD /* TrackerException.swift */; };
+		0D15F662271464C4002183DA /* TrackerTablePedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706519C24362007009BC292 /* TrackerTablePedometer.swift */; };
+		0D15F664271464C4002183DA /* TrackerTableActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F1C242E56FB00D5406A /* TrackerTableActivities.swift */; };
+		0D15F665271464C4002183DA /* TrackerTextUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F0F242E4E2600D5406A /* TrackerTextUtils.swift */; };
+		0D15F666271464C4002183DA /* TrackerDBPedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706512424324280009BC292 /* TrackerDBPedometer.swift */; };
+		0D15F668271464C4002183DA /* TrackerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB4BD8247C4AD00040AF0B /* TrackerConfig.swift */; };
+		0D15F669271464C4002183DA /* TrackerDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F18242E55FE00D5406A /* TrackerDBModel.swift */; };
+		0D15F67B271466A1002183DA /* TrackerDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F1E242E573A00D5406A /* TrackerDatabase.swift */; };
+		0D15F67C271466A8002183DA /* TrackerDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F1E242E573A00D5406A /* TrackerDatabase.swift */; };
+		0D15F67D27146BA8002183DA /* TrackerDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F0B242E4D8C00D5406A /* TrackerDateExtension.swift */; };
+		0D15F67E27146CC3002183DA /* TrackerConnectionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EF62437683200C13AC0 /* TrackerConnectionResult.swift */; };
+		0D15F67F27146EB2002183DA /* TrackerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706AF11243E0290000EB2B2 /* TrackerManager.swift */; };
+		0D15F68027146F28002183DA /* TrackerEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706AF0C243DFE5B000EB2B2 /* TrackerEnvironment.swift */; };
+		0D1BBBA52562CA6C000AB63F /* TrackerOptionsPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1BBBA42562CA6C000AB63F /* TrackerOptionsPreferences.swift */; };
+		0D3A88502A263587005D0FD2 /* ActivitiesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A884F2A263587005D0FD2 /* ActivitiesRequest.swift */; };
+		0D3A88532A2635EB005D0FD2 /* EmptyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A88522A2635EB005D0FD2 /* EmptyRequest.swift */; };
+		0D3A88572A26360F005D0FD2 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A88562A26360F005D0FD2 /* BaseRequest.swift */; };
+		0D3A885A2A263624005D0FD2 /* BaseDataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A88592A263624005D0FD2 /* BaseDataRequest.swift */; };
+		0D3A885D2A26392D005D0FD2 /* BatteriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A885C2A26392D005D0FD2 /* BatteriesRequest.swift */; };
+		0D3A88602A263A7E005D0FD2 /* LocationsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A885F2A263A7E005D0FD2 /* LocationsRequest.swift */; };
+		0D3A88632A263BD2005D0FD2 /* StepsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A88622A263BD2005D0FD2 /* StepsRequest.swift */; };
+		0D3A88662A263C6A005D0FD2 /* TripsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A88652A263C6A005D0FD2 /* TripsRequest.swift */; };
+		0D3A88692A273D80005D0FD2 /* UserRegistrationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A88682A273D80005D0FD2 /* UserRegistrationRequest.swift */; };
+		0D3A886C2A274051005D0FD2 /* ActivitiesUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A886B2A274051005D0FD2 /* ActivitiesUploader.swift */; };
+		0D3A886F2A2743E5005D0FD2 /* UploadActivitiesMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A886E2A2743E5005D0FD2 /* UploadActivitiesMap.swift */; };
+		0D3A88722A274437005D0FD2 /* UploadBatteriesMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A88712A274437005D0FD2 /* UploadBatteriesMap.swift */; };
+		0D3A88752A27444D005D0FD2 /* UploadLocationsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A88742A27444D005D0FD2 /* UploadLocationsMap.swift */; };
+		0D3A88782A27445F005D0FD2 /* UploadStepsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A88772A27445F005D0FD2 /* UploadStepsMap.swift */; };
+		0D3A887B2A274467005D0FD2 /* UploadTripsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A887A2A274467005D0FD2 /* UploadTripsMap.swift */; };
+		0D3A887E2A274EAE005D0FD2 /* UploaderLegacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A887D2A274EAE005D0FD2 /* UploaderLegacy.swift */; };
+		0D3A88812A27504C005D0FD2 /* BatteriesUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A88802A27504C005D0FD2 /* BatteriesUploader.swift */; };
+		0D3A88842A275057005D0FD2 /* LocationsUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A88832A275057005D0FD2 /* LocationsUploader.swift */; };
+		0D3A88872A275062005D0FD2 /* StepsUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A88862A275062005D0FD2 /* StepsUploader.swift */; };
+		0D3A888A2A275068005D0FD2 /* TripsUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A88892A275068005D0FD2 /* TripsUploader.swift */; };
+		0D3A888D2A275650005D0FD2 /* TrackerUserEngineLegacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A888C2A275650005D0FD2 /* TrackerUserEngineLegacy.swift */; };
+		0D3A88902A2756BB005D0FD2 /* UserRegistrationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A888F2A2756BB005D0FD2 /* UserRegistrationMap.swift */; };
+		0D73C031258AE4E4005189F9 /* TrackerDistanceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D73C030258AE4E4005189F9 /* TrackerDistanceUtils.swift */; };
+		0D73C035258AE5E4005189F9 /* TrackerDoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D73C034258AE5E4005189F9 /* TrackerDoubleExtension.swift */; };
+		0D73C03C258AEA3F005189F9 /* TrackerCaloriesUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D73C03B258AEA3F005189F9 /* TrackerCaloriesUtils.swift */; };
+		0D7451A52A38BCD9008D6459 /* TrackerSequenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7451A42A38BCD9008D6459 /* TrackerSequenceExtension.swift */; };
+		0D7451A62A38BCD9008D6459 /* TrackerSequenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7451A42A38BCD9008D6459 /* TrackerSequenceExtension.swift */; };
+		0D7577EE264EA63A00FA0B27 /* TrackerLogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7577ED264EA63A00FA0B27 /* TrackerLogLevel.swift */; };
+		0DC57338264D6A7400BF5381 /* TrackerRealmExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC57337264D6A7400BF5381 /* TrackerRealmExtension.swift */; };
+		520DD3257894C0D2F4F05D7C /* Pods_TrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE95A37BDD9E0A4CA9867E3 /* Pods_TrackerTests.framework */; };
+		A8F02BC963FA6C0B01246A95 /* Pods_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4202B48E4C8B0C0783AB2E2 /* Pods_Tracker.framework */; };
+		B70651212432425A009BC292 /* TrackerDBBriskWalking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706512024324259009BC292 /* TrackerDBBriskWalking.swift */; };
+		B70651232432426F009BC292 /* TrackerDBLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70651222432426F009BC292 /* TrackerDBLocation.swift */; };
+		B706512524324280009BC292 /* TrackerDBPedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706512424324280009BC292 /* TrackerDBPedometer.swift */; };
+		B70651272432428B009BC292 /* TrackerDBSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70651262432428B009BC292 /* TrackerDBSegment.swift */; };
+		B706512924324297009BC292 /* TrackerDBSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706512824324297009BC292 /* TrackerDBSummary.swift */; };
+		B70651602434E2F7009BC292 /* TrackerUserGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706515F2434E2F7009BC292 /* TrackerUserGender.swift */; };
+		B70651622434E309009BC292 /* TrackerUserAgeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70651612434E309009BC292 /* TrackerUserAgeRange.swift */; };
+		B706519324361412009BC292 /* TrackerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706519224361412009BC292 /* TrackerProtocol.swift */; };
+		B706519724361FD9009BC292 /* TrackerTableBriskWalking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706519624361FD9009BC292 /* TrackerTableBriskWalking.swift */; };
+		B706519B24361FF9009BC292 /* TrackerTableLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706519A24361FF9009BC292 /* TrackerTableLocations.swift */; };
+		B706519D24362007009BC292 /* TrackerTablePedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706519C24362007009BC292 /* TrackerTablePedometer.swift */; };
+		B706519F24362013009BC292 /* TrackerTableSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706519E24362013009BC292 /* TrackerTableSegments.swift */; };
+		B70651A124362021009BC292 /* TrackerTableSummaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70651A024362021009BC292 /* TrackerTableSummaries.swift */; };
+		B706AF0D243DFE5B000EB2B2 /* TrackerEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706AF0C243DFE5B000EB2B2 /* TrackerEnvironment.swift */; };
+		B706AF0F243E002A000EB2B2 /* TrackerLocaleUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706AF0E243E002A000EB2B2 /* TrackerLocaleUtils.swift */; };
+		B706AF12243E0290000EB2B2 /* TrackerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706AF11243E0290000EB2B2 /* TrackerManager.swift */; };
+		B736C65A242967D900960D8A /* TrackerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736C659242967D900960D8A /* TrackerExtensions.swift */; };
+		B7741EFF242E417E00D5406A /* TrackerBasePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741EFE242E417E00D5406A /* TrackerBasePreferences.swift */; };
+		B7741F01242E418900D5406A /* TrackerPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F00242E418900D5406A /* TrackerPreferences.swift */; };
+		B7741F03242E419E00D5406A /* TrackerUserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F02242E419E00D5406A /* TrackerUserPreferences.swift */; };
+		B7741F05242E41C700D5406A /* TrackerPreferencesKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F04242E41C700D5406A /* TrackerPreferencesKeys.swift */; };
+		B7741F07242E474E00D5406A /* TrackerRoutinePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F06242E474E00D5406A /* TrackerRoutinePreferences.swift */; };
+		B7741F0A242E4BBD00D5406A /* TrackerPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F09242E4BBD00D5406A /* TrackerPermissions.swift */; };
+		B7741F0C242E4D8C00D5406A /* TrackerDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F0B242E4D8C00D5406A /* TrackerDateExtension.swift */; };
+		B7741F0E242E4DC700D5406A /* TrackerTimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F0D242E4DC700D5406A /* TrackerTimeUtils.swift */; };
+		B7741F10242E4E2600D5406A /* TrackerTextUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F0F242E4E2600D5406A /* TrackerTextUtils.swift */; };
+		B7741F12242E4FA600D5406A /* TrackerStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F11242E4FA600D5406A /* TrackerStringExtension.swift */; };
+		B7741F17242E55B700D5406A /* TrackerDBActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F16242E55B700D5406A /* TrackerDBActivity.swift */; };
+		B7741F19242E55FE00D5406A /* TrackerDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F18242E55FE00D5406A /* TrackerDBModel.swift */; };
+		B7741F1D242E56FB00D5406A /* TrackerTableActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741F1C242E56FB00D5406A /* TrackerTableActivities.swift */; };
+		B79DA8C72461B95500BE5D73 /* TrackerLocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79DA8C62461B95500BE5D73 /* TrackerLocationUtils.swift */; };
+		B7A5F9392458715A001CBF64 /* TrackerActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A5F9382458715A001CBF64 /* TrackerActivityType.swift */; };
+		B7A5F93C24587410001CBF64 /* TrackerLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A5F93B24587410001CBF64 /* TrackerLocationManager.swift */; };
+		B7A5F94524588886001CBF64 /* TrackerClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A5F94424588886001CBF64 /* TrackerClosures.swift */; };
+		B7A5F94D2459E658001CBF64 /* TrackerMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A5F94C2459E658001CBF64 /* TrackerMotionManager.swift */; };
+		B7A64494245AFF3F004B2420 /* TrackerAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A64493245AFF3F004B2420 /* TrackerAnalyser.swift */; };
+		B7A64496245B2841004B2420 /* TrackerPedometerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A64495245B2841004B2420 /* TrackerPedometerManager.swift */; };
+		B7A6449D24603C3F004B2420 /* TrackerSegmentsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A6449C24603C3F004B2420 /* TrackerSegmentsManager.swift */; };
+		B7AB75BA2422E5F8004080BD /* TrackerBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AB75B92422E5F8004080BD /* TrackerBundle.swift */; };
+		B7AB75D22428FF25004080BD /* TrackerString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AB75D12428FF25004080BD /* TrackerString.swift */; };
+		B7AB75D824290003004080BD /* TrackerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AB75D724290003004080BD /* TrackerImage.swift */; };
+		B7AB75DD2429007E004080BD /* TrackerException.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AB75DC2429007E004080BD /* TrackerException.swift */; };
+		B7AB75DF242900A9004080BD /* TrackerColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AB75DE242900A9004080BD /* TrackerColor.swift */; };
+		B7EB4BD7247C46370040AF0B /* TrackerConfigurationPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB4BD6247C46370040AF0B /* TrackerConfigurationPreferences.swift */; };
+		B7EB4BD9247C4AD00040AF0B /* TrackerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB4BD8247C4AD00040AF0B /* TrackerConfig.swift */; };
+		B7EB94AB241FEE6000790A33 /* Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EB94A1241FEE6000790A33 /* Tracker.framework */; };
+		B7EB94B0241FEE6000790A33 /* TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB94AF241FEE6000790A33 /* TrackerTests.swift */; };
+		B7EB94B2241FEE6000790A33 /* Tracker.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EB94A4241FEE6000790A33 /* Tracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7EB94BD242003EB00790A33 /* TrackerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB94BC242003EB00790A33 /* TrackerUtils.swift */; };
+		B7EB957324205C6500790A33 /* TrackerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB957224205C6500790A33 /* TrackerLogger.swift */; };
+		B7EB957524205D4400790A33 /* TrackerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB957424205D4400790A33 /* TrackerConstants.swift */; };
+		B7EFD1FF24621D4200788671 /* TrackerTargetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EFD1FE24621D4200788671 /* TrackerTargetApp.swift */; };
+		B7EFD208246455B200788671 /* TrackerStepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EFD207246455B200788671 /* TrackerStepModel.swift */; };
+		B7EFD2212469A57A00788671 /* TrackerUserEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EFD2202469A57A00788671 /* TrackerUserEngine.swift */; };
+		B7EFD2232469A73600788671 /* TrackerDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EFD2222469A73600788671 /* TrackerDeviceExtension.swift */; };
+		B7EFD225246AEA9900788671 /* TrackerUserMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EFD224246AEA9700788671 /* TrackerUserMap.swift */; };
+		B7EFD227246AF3D800788671 /* TrackerUploadDataEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EFD226246AF3D800788671 /* TrackerUploadDataEngine.swift */; };
+		B7EFD229246B7DD400788671 /* TrackerDictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EFD228246B7DD400788671 /* TrackerDictionaryExtension.swift */; };
+		B7EFD22B246B8A7500788671 /* TrackerResponseMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EFD22A246B8A7500788671 /* TrackerResponseMap.swift */; };
+		B7EFD232246D94E100788671 /* TrackerSummaryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EFD231246D94E100788671 /* TrackerSummaryManager.swift */; };
+		B7F92EE92437614300C13AC0 /* TrackerLocationAccuracy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EE82437614300C13AC0 /* TrackerLocationAccuracy.swift */; };
+		B7F92EEB243761AE00C13AC0 /* TrackerTrackingPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EEA243761AE00C13AC0 /* TrackerTrackingPreferences.swift */; };
+		B7F92EF12437658C00C13AC0 /* TrackerGson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EF02437658C00C13AC0 /* TrackerGson.swift */; };
+		B7F92EF5243767F000C13AC0 /* TrackerNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EF4243767F000C13AC0 /* TrackerNetwork.swift */; };
+		B7F92EF72437683200C13AC0 /* TrackerConnectionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EF62437683200C13AC0 /* TrackerConnectionResult.swift */; };
+		B7F92EF92437685000C13AC0 /* TrackerApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EF82437685000C13AC0 /* TrackerApi.swift */; };
+		B7F92EFB2437689100C13AC0 /* TrackerWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EFA2437689100C13AC0 /* TrackerWebService.swift */; };
+		B7F92EFD2437699200C13AC0 /* TrackerBackendPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EFC2437699200C13AC0 /* TrackerBackendPreferences.swift */; };
+		B7F92EFF24376A7900C13AC0 /* TrackerConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92EFE24376A7900C13AC0 /* TrackerConnection.swift */; };
+		B7F92F072437773400C13AC0 /* TrackerApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F92F062437773400C13AC0 /* TrackerApiManager.swift */; };
+		F90CB39F80ED3BE239F1C8B0 /* Pods_TrackerWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFEC43098EB6EC5D9662C69 /* Pods_TrackerWatch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7EB94AC241FEE6000790A33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7EB9498241FEE6000790A33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7EB94A0241FEE6000790A33;
+			remoteInfo = Tracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D9D875F28C65BE400802F1F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		092520FA02E3238FFEE298EB /* Pods-TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-TrackerTests/Pods-TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D15F670271464C4002183DA /* TrackerWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrackerWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D15F674271465E8002183DA /* TrackerWatch-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TrackerWatch-Info.plist"; sourceTree = "<group>"; };
+		0D1BBBA42562CA6C000AB63F /* TrackerOptionsPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerOptionsPreferences.swift; sourceTree = "<group>"; };
+		0D3A884F2A263587005D0FD2 /* ActivitiesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesRequest.swift; sourceTree = "<group>"; };
+		0D3A88522A2635EB005D0FD2 /* EmptyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyRequest.swift; sourceTree = "<group>"; };
+		0D3A88562A26360F005D0FD2 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		0D3A88592A263624005D0FD2 /* BaseDataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDataRequest.swift; sourceTree = "<group>"; };
+		0D3A885C2A26392D005D0FD2 /* BatteriesRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteriesRequest.swift; sourceTree = "<group>"; };
+		0D3A885F2A263A7E005D0FD2 /* LocationsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsRequest.swift; sourceTree = "<group>"; };
+		0D3A88622A263BD2005D0FD2 /* StepsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsRequest.swift; sourceTree = "<group>"; };
+		0D3A88652A263C6A005D0FD2 /* TripsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsRequest.swift; sourceTree = "<group>"; };
+		0D3A88682A273D80005D0FD2 /* UserRegistrationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegistrationRequest.swift; sourceTree = "<group>"; };
+		0D3A886B2A274051005D0FD2 /* ActivitiesUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesUploader.swift; sourceTree = "<group>"; };
+		0D3A886E2A2743E5005D0FD2 /* UploadActivitiesMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadActivitiesMap.swift; sourceTree = "<group>"; };
+		0D3A88712A274437005D0FD2 /* UploadBatteriesMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadBatteriesMap.swift; sourceTree = "<group>"; };
+		0D3A88742A27444D005D0FD2 /* UploadLocationsMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadLocationsMap.swift; sourceTree = "<group>"; };
+		0D3A88772A27445F005D0FD2 /* UploadStepsMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadStepsMap.swift; sourceTree = "<group>"; };
+		0D3A887A2A274467005D0FD2 /* UploadTripsMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadTripsMap.swift; sourceTree = "<group>"; };
+		0D3A887D2A274EAE005D0FD2 /* UploaderLegacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploaderLegacy.swift; sourceTree = "<group>"; };
+		0D3A88802A27504C005D0FD2 /* BatteriesUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteriesUploader.swift; sourceTree = "<group>"; };
+		0D3A88832A275057005D0FD2 /* LocationsUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsUploader.swift; sourceTree = "<group>"; };
+		0D3A88862A275062005D0FD2 /* StepsUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsUploader.swift; sourceTree = "<group>"; };
+		0D3A88892A275068005D0FD2 /* TripsUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsUploader.swift; sourceTree = "<group>"; };
+		0D3A888C2A275650005D0FD2 /* TrackerUserEngineLegacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerUserEngineLegacy.swift; sourceTree = "<group>"; };
+		0D3A888F2A2756BB005D0FD2 /* UserRegistrationMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegistrationMap.swift; sourceTree = "<group>"; };
+		0D73C030258AE4E4005189F9 /* TrackerDistanceUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDistanceUtils.swift; sourceTree = "<group>"; };
+		0D73C034258AE5E4005189F9 /* TrackerDoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDoubleExtension.swift; sourceTree = "<group>"; };
+		0D73C03B258AEA3F005189F9 /* TrackerCaloriesUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerCaloriesUtils.swift; sourceTree = "<group>"; };
+		0D7451A42A38BCD9008D6459 /* TrackerSequenceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerSequenceExtension.swift; sourceTree = "<group>"; };
+		0D7577ED264EA63A00FA0B27 /* TrackerLogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerLogLevel.swift; sourceTree = "<group>"; };
+		0DC57337264D6A7400BF5381 /* TrackerRealmExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerRealmExtension.swift; sourceTree = "<group>"; };
+		4F14B584D39EEDA585FDAA18 /* Pods-TrackerWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackerWatch.release.xcconfig"; path = "Target Support Files/Pods-TrackerWatch/Pods-TrackerWatch.release.xcconfig"; sourceTree = "<group>"; };
+		50C5328A141F739B75DC483B /* Pods-TrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackerTests.release.xcconfig"; path = "Target Support Files/Pods-TrackerTests/Pods-TrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		6DE95A37BDD9E0A4CA9867E3 /* Pods_TrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		707AD8CAF54B8CF2410E900B /* Pods-Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Tracker/Pods-Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		A91DFBA4CF75B33FC3640786 /* Pods-TrackerWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackerWatch.debug.xcconfig"; path = "Target Support Files/Pods-TrackerWatch/Pods-TrackerWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		B706512024324259009BC292 /* TrackerDBBriskWalking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDBBriskWalking.swift; sourceTree = "<group>"; };
+		B70651222432426F009BC292 /* TrackerDBLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDBLocation.swift; sourceTree = "<group>"; };
+		B706512424324280009BC292 /* TrackerDBPedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDBPedometer.swift; sourceTree = "<group>"; };
+		B70651262432428B009BC292 /* TrackerDBSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDBSegment.swift; sourceTree = "<group>"; };
+		B706512824324297009BC292 /* TrackerDBSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDBSummary.swift; sourceTree = "<group>"; };
+		B706515F2434E2F7009BC292 /* TrackerUserGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerUserGender.swift; sourceTree = "<group>"; };
+		B70651612434E309009BC292 /* TrackerUserAgeRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerUserAgeRange.swift; sourceTree = "<group>"; };
+		B706519224361412009BC292 /* TrackerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerProtocol.swift; sourceTree = "<group>"; };
+		B706519624361FD9009BC292 /* TrackerTableBriskWalking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTableBriskWalking.swift; sourceTree = "<group>"; };
+		B706519A24361FF9009BC292 /* TrackerTableLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTableLocations.swift; sourceTree = "<group>"; };
+		B706519C24362007009BC292 /* TrackerTablePedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTablePedometer.swift; sourceTree = "<group>"; };
+		B706519E24362013009BC292 /* TrackerTableSegments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTableSegments.swift; sourceTree = "<group>"; };
+		B70651A024362021009BC292 /* TrackerTableSummaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTableSummaries.swift; sourceTree = "<group>"; };
+		B706AF0C243DFE5B000EB2B2 /* TrackerEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerEnvironment.swift; sourceTree = "<group>"; };
+		B706AF0E243E002A000EB2B2 /* TrackerLocaleUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerLocaleUtils.swift; sourceTree = "<group>"; };
+		B706AF11243E0290000EB2B2 /* TrackerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerManager.swift; sourceTree = "<group>"; };
+		B736C659242967D900960D8A /* TrackerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerExtensions.swift; sourceTree = "<group>"; };
+		B7741EFE242E417E00D5406A /* TrackerBasePreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerBasePreferences.swift; sourceTree = "<group>"; };
+		B7741F00242E418900D5406A /* TrackerPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerPreferences.swift; sourceTree = "<group>"; };
+		B7741F02242E419E00D5406A /* TrackerUserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerUserPreferences.swift; sourceTree = "<group>"; };
+		B7741F04242E41C700D5406A /* TrackerPreferencesKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerPreferencesKeys.swift; sourceTree = "<group>"; };
+		B7741F06242E474E00D5406A /* TrackerRoutinePreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerRoutinePreferences.swift; sourceTree = "<group>"; };
+		B7741F09242E4BBD00D5406A /* TrackerPermissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerPermissions.swift; sourceTree = "<group>"; };
+		B7741F0B242E4D8C00D5406A /* TrackerDateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDateExtension.swift; sourceTree = "<group>"; };
+		B7741F0D242E4DC700D5406A /* TrackerTimeUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTimeUtils.swift; sourceTree = "<group>"; };
+		B7741F0F242E4E2600D5406A /* TrackerTextUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTextUtils.swift; sourceTree = "<group>"; };
+		B7741F11242E4FA600D5406A /* TrackerStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerStringExtension.swift; sourceTree = "<group>"; };
+		B7741F16242E55B700D5406A /* TrackerDBActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDBActivity.swift; sourceTree = "<group>"; };
+		B7741F18242E55FE00D5406A /* TrackerDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDBModel.swift; sourceTree = "<group>"; };
+		B7741F1C242E56FB00D5406A /* TrackerTableActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTableActivities.swift; sourceTree = "<group>"; };
+		B7741F1E242E573A00D5406A /* TrackerDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDatabase.swift; sourceTree = "<group>"; };
+		B79DA8C62461B95500BE5D73 /* TrackerLocationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerLocationUtils.swift; sourceTree = "<group>"; };
+		B7A5F9382458715A001CBF64 /* TrackerActivityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerActivityType.swift; sourceTree = "<group>"; };
+		B7A5F93B24587410001CBF64 /* TrackerLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerLocationManager.swift; sourceTree = "<group>"; };
+		B7A5F94424588886001CBF64 /* TrackerClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerClosures.swift; sourceTree = "<group>"; };
+		B7A5F94C2459E658001CBF64 /* TrackerMotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerMotionManager.swift; sourceTree = "<group>"; };
+		B7A64493245AFF3F004B2420 /* TrackerAnalyser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerAnalyser.swift; sourceTree = "<group>"; };
+		B7A64495245B2841004B2420 /* TrackerPedometerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerPedometerManager.swift; sourceTree = "<group>"; };
+		B7A6449C24603C3F004B2420 /* TrackerSegmentsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerSegmentsManager.swift; sourceTree = "<group>"; };
+		B7AB75B92422E5F8004080BD /* TrackerBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerBundle.swift; sourceTree = "<group>"; };
+		B7AB75D12428FF25004080BD /* TrackerString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerString.swift; sourceTree = "<group>"; };
+		B7AB75D724290003004080BD /* TrackerImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerImage.swift; sourceTree = "<group>"; };
+		B7AB75DC2429007E004080BD /* TrackerException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerException.swift; sourceTree = "<group>"; };
+		B7AB75DE242900A9004080BD /* TrackerColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerColor.swift; sourceTree = "<group>"; };
+		B7EB4BD6247C46370040AF0B /* TrackerConfigurationPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerConfigurationPreferences.swift; sourceTree = "<group>"; };
+		B7EB4BD8247C4AD00040AF0B /* TrackerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerConfig.swift; sourceTree = "<group>"; };
+		B7EB94A1241FEE6000790A33 /* Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EB94A4241FEE6000790A33 /* Tracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
+		B7EB94A5241FEE6000790A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7EB94AA241FEE6000790A33 /* TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EB94AF241FEE6000790A33 /* TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTests.swift; sourceTree = "<group>"; };
+		B7EB94B1241FEE6000790A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7EB94BC242003EB00790A33 /* TrackerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerUtils.swift; sourceTree = "<group>"; };
+		B7EB957224205C6500790A33 /* TrackerLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerLogger.swift; sourceTree = "<group>"; };
+		B7EB957424205D4400790A33 /* TrackerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerConstants.swift; sourceTree = "<group>"; };
+		B7EFD1FE24621D4200788671 /* TrackerTargetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTargetApp.swift; sourceTree = "<group>"; };
+		B7EFD207246455B200788671 /* TrackerStepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerStepModel.swift; sourceTree = "<group>"; };
+		B7EFD2202469A57A00788671 /* TrackerUserEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerUserEngine.swift; sourceTree = "<group>"; };
+		B7EFD2222469A73600788671 /* TrackerDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDeviceExtension.swift; sourceTree = "<group>"; };
+		B7EFD224246AEA9700788671 /* TrackerUserMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerUserMap.swift; sourceTree = "<group>"; };
+		B7EFD226246AF3D800788671 /* TrackerUploadDataEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerUploadDataEngine.swift; sourceTree = "<group>"; };
+		B7EFD228246B7DD400788671 /* TrackerDictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDictionaryExtension.swift; sourceTree = "<group>"; };
+		B7EFD22A246B8A7500788671 /* TrackerResponseMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerResponseMap.swift; sourceTree = "<group>"; };
+		B7EFD231246D94E100788671 /* TrackerSummaryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerSummaryManager.swift; sourceTree = "<group>"; };
+		B7F92EE82437614300C13AC0 /* TrackerLocationAccuracy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerLocationAccuracy.swift; sourceTree = "<group>"; };
+		B7F92EEA243761AE00C13AC0 /* TrackerTrackingPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTrackingPreferences.swift; sourceTree = "<group>"; };
+		B7F92EF02437658C00C13AC0 /* TrackerGson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerGson.swift; sourceTree = "<group>"; };
+		B7F92EF4243767F000C13AC0 /* TrackerNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerNetwork.swift; sourceTree = "<group>"; };
+		B7F92EF62437683200C13AC0 /* TrackerConnectionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerConnectionResult.swift; sourceTree = "<group>"; };
+		B7F92EF82437685000C13AC0 /* TrackerApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerApi.swift; sourceTree = "<group>"; };
+		B7F92EFA2437689100C13AC0 /* TrackerWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerWebService.swift; sourceTree = "<group>"; };
+		B7F92EFC2437699200C13AC0 /* TrackerBackendPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerBackendPreferences.swift; sourceTree = "<group>"; };
+		B7F92EFE24376A7900C13AC0 /* TrackerConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerConnection.swift; sourceTree = "<group>"; };
+		B7F92F062437773400C13AC0 /* TrackerApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerApiManager.swift; sourceTree = "<group>"; };
+		BAFEC43098EB6EC5D9662C69 /* Pods_TrackerWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackerWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4202B48E4C8B0C0783AB2E2 /* Pods_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2060C69ED8B757BB893E6BF /* Pods-Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tracker.release.xcconfig"; path = "Target Support Files/Pods-Tracker/Pods-Tracker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D15F66A271464C4002183DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90CB39F80ED3BE239F1C8B0 /* Pods_TrackerWatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EB949E241FEE6000790A33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F02BC963FA6C0B01246A95 /* Pods_Tracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EB94A7241FEE6000790A33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EB94AB241FEE6000790A33 /* Tracker.framework in Frameworks */,
+				520DD3257894C0D2F4F05D7C /* Pods_TrackerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CFE25347EE70EB8BF019776 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				707AD8CAF54B8CF2410E900B /* Pods-Tracker.debug.xcconfig */,
+				E2060C69ED8B757BB893E6BF /* Pods-Tracker.release.xcconfig */,
+				092520FA02E3238FFEE298EB /* Pods-TrackerTests.debug.xcconfig */,
+				50C5328A141F739B75DC483B /* Pods-TrackerTests.release.xcconfig */,
+				A91DFBA4CF75B33FC3640786 /* Pods-TrackerWatch.debug.xcconfig */,
+				4F14B584D39EEDA585FDAA18 /* Pods-TrackerWatch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0D2DC2052563551D0056C000 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				B7741EFE242E417E00D5406A /* TrackerBasePreferences.swift */,
+				B7741F00242E418900D5406A /* TrackerPreferences.swift */,
+				B7741F04242E41C700D5406A /* TrackerPreferencesKeys.swift */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		0D3A884D2A263530005D0FD2 /* uploaders */ = {
+			isa = PBXGroup;
+			children = (
+				0D3A886B2A274051005D0FD2 /* ActivitiesUploader.swift */,
+				0D3A88802A27504C005D0FD2 /* BatteriesUploader.swift */,
+				0D3A88832A275057005D0FD2 /* LocationsUploader.swift */,
+				0D3A88862A275062005D0FD2 /* StepsUploader.swift */,
+				0D3A88892A275068005D0FD2 /* TripsUploader.swift */,
+				0D3A887D2A274EAE005D0FD2 /* UploaderLegacy.swift */,
+			);
+			path = uploaders;
+			sourceTree = "<group>";
+		};
+		0D3A884E2A263566005D0FD2 /* serialization */ = {
+			isa = PBXGroup;
+			children = (
+				0D3A88552A263602005D0FD2 /* engine */,
+				0D3A88522A2635EB005D0FD2 /* EmptyRequest.swift */,
+				0D3A884F2A263587005D0FD2 /* ActivitiesRequest.swift */,
+				0D3A885C2A26392D005D0FD2 /* BatteriesRequest.swift */,
+				0D3A885F2A263A7E005D0FD2 /* LocationsRequest.swift */,
+				0D3A88622A263BD2005D0FD2 /* StepsRequest.swift */,
+				0D3A88652A263C6A005D0FD2 /* TripsRequest.swift */,
+				0D3A88682A273D80005D0FD2 /* UserRegistrationRequest.swift */,
+			);
+			path = serialization;
+			sourceTree = "<group>";
+		};
+		0D3A88552A263602005D0FD2 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				0D3A88562A26360F005D0FD2 /* BaseRequest.swift */,
+				0D3A88592A263624005D0FD2 /* BaseDataRequest.swift */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		97F3DBEB820BE92E9D2D8CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4202B48E4C8B0C0783AB2E2 /* Pods_Tracker.framework */,
+				6DE95A37BDD9E0A4CA9867E3 /* Pods_TrackerTests.framework */,
+				BAFEC43098EB6EC5D9662C69 /* Pods_TrackerWatch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B706515E2434E2D4009BC292 /* structures */ = {
+			isa = PBXGroup;
+			children = (
+				B7F92EE82437614300C13AC0 /* TrackerLocationAccuracy.swift */,
+				0D7577ED264EA63A00FA0B27 /* TrackerLogLevel.swift */,
+				B7EFD1FE24621D4200788671 /* TrackerTargetApp.swift */,
+				B70651612434E309009BC292 /* TrackerUserAgeRange.swift */,
+				B706515F2434E2F7009BC292 /* TrackerUserGender.swift */,
+			);
+			path = structures;
+			sourceTree = "<group>";
+		};
+		B706AF0B243DFE45000EB2B2 /* environment */ = {
+			isa = PBXGroup;
+			children = (
+				B706AF0C243DFE5B000EB2B2 /* TrackerEnvironment.swift */,
+			);
+			path = environment;
+			sourceTree = "<group>";
+		};
+		B706AF10243E0271000EB2B2 /* tracker */ = {
+			isa = PBXGroup;
+			children = (
+				B7A64492245AFF29004B2420 /* analysers */,
+				B7EFD2062464558900788671 /* models */,
+				B7A6449B24603C27004B2420 /* managers */,
+				B7A5F93724587132001CBF64 /* structures */,
+				B706AF11243E0290000EB2B2 /* TrackerManager.swift */,
+				B7EB4BD8247C4AD00040AF0B /* TrackerConfig.swift */,
+			);
+			path = tracker;
+			sourceTree = "<group>";
+		};
+		B736C66024296A0B00960D8A /* generics */ = {
+			isa = PBXGroup;
+			children = (
+				B7A5F94424588886001CBF64 /* TrackerClosures.swift */,
+				B706519224361412009BC292 /* TrackerProtocol.swift */,
+			);
+			path = generics;
+			sourceTree = "<group>";
+		};
+		B7741EFD242E416300D5406A /* preferences */ = {
+			isa = PBXGroup;
+			children = (
+				0D2DC2052563551D0056C000 /* engine */,
+				B7F92EFC2437699200C13AC0 /* TrackerBackendPreferences.swift */,
+				B7EB4BD6247C46370040AF0B /* TrackerConfigurationPreferences.swift */,
+				0D1BBBA42562CA6C000AB63F /* TrackerOptionsPreferences.swift */,
+				B7741F06242E474E00D5406A /* TrackerRoutinePreferences.swift */,
+				B7F92EEA243761AE00C13AC0 /* TrackerTrackingPreferences.swift */,
+				B7741F02242E419E00D5406A /* TrackerUserPreferences.swift */,
+			);
+			path = preferences;
+			sourceTree = "<group>";
+		};
+		B7741F08242E4BA800D5406A /* permissions */ = {
+			isa = PBXGroup;
+			children = (
+				B7741F09242E4BBD00D5406A /* TrackerPermissions.swift */,
+			);
+			path = permissions;
+			sourceTree = "<group>";
+		};
+		B7741F13242E556700D5406A /* database */ = {
+			isa = PBXGroup;
+			children = (
+				B7741F1E242E573A00D5406A /* TrackerDatabase.swift */,
+				B7741F14242E55A300D5406A /* models */,
+				B7741F15242E55A900D5406A /* tables */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		B7741F14242E55A300D5406A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B7741F18242E55FE00D5406A /* TrackerDBModel.swift */,
+				B7741F16242E55B700D5406A /* TrackerDBActivity.swift */,
+				B706512024324259009BC292 /* TrackerDBBriskWalking.swift */,
+				B70651222432426F009BC292 /* TrackerDBLocation.swift */,
+				B706512424324280009BC292 /* TrackerDBPedometer.swift */,
+				B70651262432428B009BC292 /* TrackerDBSegment.swift */,
+				B706512824324297009BC292 /* TrackerDBSummary.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		B7741F15242E55A900D5406A /* tables */ = {
+			isa = PBXGroup;
+			children = (
+				B7741F1C242E56FB00D5406A /* TrackerTableActivities.swift */,
+				B706519624361FD9009BC292 /* TrackerTableBriskWalking.swift */,
+				B706519A24361FF9009BC292 /* TrackerTableLocations.swift */,
+				B706519C24362007009BC292 /* TrackerTablePedometer.swift */,
+				B706519E24362013009BC292 /* TrackerTableSegments.swift */,
+				B70651A024362021009BC292 /* TrackerTableSummaries.swift */,
+			);
+			path = tables;
+			sourceTree = "<group>";
+		};
+		B7A5F93724587132001CBF64 /* structures */ = {
+			isa = PBXGroup;
+			children = (
+				B7A5F9382458715A001CBF64 /* TrackerActivityType.swift */,
+			);
+			path = structures;
+			sourceTree = "<group>";
+		};
+		B7A64492245AFF29004B2420 /* analysers */ = {
+			isa = PBXGroup;
+			children = (
+				B7A64493245AFF3F004B2420 /* TrackerAnalyser.swift */,
+			);
+			path = analysers;
+			sourceTree = "<group>";
+		};
+		B7A6449B24603C27004B2420 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				B7A5F93B24587410001CBF64 /* TrackerLocationManager.swift */,
+				B7A5F94C2459E658001CBF64 /* TrackerMotionManager.swift */,
+				B7A64495245B2841004B2420 /* TrackerPedometerManager.swift */,
+				B7A6449C24603C3F004B2420 /* TrackerSegmentsManager.swift */,
+				B7EFD231246D94E100788671 /* TrackerSummaryManager.swift */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
+		B7AB75B52422E535004080BD /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B7741F0B242E4D8C00D5406A /* TrackerDateExtension.swift */,
+				B7EFD2222469A73600788671 /* TrackerDeviceExtension.swift */,
+				B7EFD228246B7DD400788671 /* TrackerDictionaryExtension.swift */,
+				0D73C034258AE5E4005189F9 /* TrackerDoubleExtension.swift */,
+				B736C659242967D900960D8A /* TrackerExtensions.swift */,
+				0DC57337264D6A7400BF5381 /* TrackerRealmExtension.swift */,
+				0D7451A42A38BCD9008D6459 /* TrackerSequenceExtension.swift */,
+				B7741F11242E4FA600D5406A /* TrackerStringExtension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		B7AB75B82422E5E3004080BD /* values */ = {
+			isa = PBXGroup;
+			children = (
+				B7AB75B92422E5F8004080BD /* TrackerBundle.swift */,
+				B7AB75DE242900A9004080BD /* TrackerColor.swift */,
+				B7AB75D724290003004080BD /* TrackerImage.swift */,
+				B7AB75D12428FF25004080BD /* TrackerString.swift */,
+			);
+			path = values;
+			sourceTree = "<group>";
+		};
+		B7AB75DB24290069004080BD /* exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				B7AB75DC2429007E004080BD /* TrackerException.swift */,
+			);
+			path = exceptions;
+			sourceTree = "<group>";
+		};
+		B7EB9497241FEE6000790A33 = {
+			isa = PBXGroup;
+			children = (
+				B7EB94A3241FEE6000790A33 /* Tracker */,
+				B7EB94AE241FEE6000790A33 /* TrackerTests */,
+				B7EB94A2241FEE6000790A33 /* Products */,
+				0CFE25347EE70EB8BF019776 /* Pods */,
+				97F3DBEB820BE92E9D2D8CEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7EB94A2241FEE6000790A33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB94A1241FEE6000790A33 /* Tracker.framework */,
+				B7EB94AA241FEE6000790A33 /* TrackerTests.xctest */,
+				0D15F670271464C4002183DA /* TrackerWatch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7EB94A3241FEE6000790A33 /* Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				B7EFD219246994EF00788671 /* data */,
+				B7EB955E242056C800790A33 /* supportingFiles */,
+			);
+			path = Tracker;
+			sourceTree = "<group>";
+		};
+		B7EB94AE241FEE6000790A33 /* TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB95632420579900790A33 /* tests */,
+				B7EB95612420573600790A33 /* supportingFiles */,
+			);
+			path = TrackerTests;
+			sourceTree = "<group>";
+		};
+		B7EB94BB242003DA00790A33 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				0D73C03B258AEA3F005189F9 /* TrackerCaloriesUtils.swift */,
+				B7EB957424205D4400790A33 /* TrackerConstants.swift */,
+				0D73C030258AE4E4005189F9 /* TrackerDistanceUtils.swift */,
+				B7F92EF02437658C00C13AC0 /* TrackerGson.swift */,
+				B706AF0E243E002A000EB2B2 /* TrackerLocaleUtils.swift */,
+				B79DA8C62461B95500BE5D73 /* TrackerLocationUtils.swift */,
+				B7EB957224205C6500790A33 /* TrackerLogger.swift */,
+				B7741F0F242E4E2600D5406A /* TrackerTextUtils.swift */,
+				B7741F0D242E4DC700D5406A /* TrackerTimeUtils.swift */,
+				B7EB94BC242003EB00790A33 /* TrackerUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		B7EB955E242056C800790A33 /* supportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB955F242056DC00790A33 /* headers */,
+				B7EB9560242056E300790A33 /* plists */,
+			);
+			path = supportingFiles;
+			sourceTree = "<group>";
+		};
+		B7EB955F242056DC00790A33 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB94A4241FEE6000790A33 /* Tracker.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		B7EB9560242056E300790A33 /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB94A5241FEE6000790A33 /* Info.plist */,
+				0D15F674271465E8002183DA /* TrackerWatch-Info.plist */,
+			);
+			path = plists;
+			sourceTree = "<group>";
+		};
+		B7EB95612420573600790A33 /* supportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB95622420573C00790A33 /* plists */,
+			);
+			path = supportingFiles;
+			sourceTree = "<group>";
+		};
+		B7EB95622420573C00790A33 /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB94B1241FEE6000790A33 /* Info.plist */,
+			);
+			path = plists;
+			sourceTree = "<group>";
+		};
+		B7EB95632420579900790A33 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB94AF241FEE6000790A33 /* TrackerTests.swift */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		B7EFD2062464558900788671 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B7EFD207246455B200788671 /* TrackerStepModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		B7EFD219246994EF00788671 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				B7F92F012437737800C13AC0 /* backend */,
+				B7741F13242E556700D5406A /* database */,
+				B706AF0B243DFE45000EB2B2 /* environment */,
+				B7AB75DB24290069004080BD /* exceptions */,
+				B7AB75B52422E535004080BD /* extensions */,
+				B736C66024296A0B00960D8A /* generics */,
+				B7F92EF3243767DE00C13AC0 /* network */,
+				B7741F08242E4BA800D5406A /* permissions */,
+				B7741EFD242E416300D5406A /* preferences */,
+				B706515E2434E2D4009BC292 /* structures */,
+				B706AF10243E0271000EB2B2 /* tracker */,
+				B7EB94BB242003DA00790A33 /* utils */,
+				B7AB75B82422E5E3004080BD /* values */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		B7F92EF3243767DE00C13AC0 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				B7F92EF82437685000C13AC0 /* TrackerApi.swift */,
+				B7F92EF62437683200C13AC0 /* TrackerConnectionResult.swift */,
+				B7F92EFE24376A7900C13AC0 /* TrackerConnection.swift */,
+				B7F92EF4243767F000C13AC0 /* TrackerNetwork.swift */,
+				B7F92EFA2437689100C13AC0 /* TrackerWebService.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		B7F92F012437737800C13AC0 /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				B7F92F062437773400C13AC0 /* TrackerApiManager.swift */,
+				B7F92F052437771A00C13AC0 /* deserialization */,
+				B7F92F042437771200C13AC0 /* engines */,
+				0D3A884E2A263566005D0FD2 /* serialization */,
+				0D3A884D2A263530005D0FD2 /* uploaders */,
+			);
+			path = backend;
+			sourceTree = "<group>";
+		};
+		B7F92F042437771200C13AC0 /* engines */ = {
+			isa = PBXGroup;
+			children = (
+				B7EFD226246AF3D800788671 /* TrackerUploadDataEngine.swift */,
+				B7EFD2202469A57A00788671 /* TrackerUserEngine.swift */,
+				0D3A888C2A275650005D0FD2 /* TrackerUserEngineLegacy.swift */,
+			);
+			path = engines;
+			sourceTree = "<group>";
+		};
+		B7F92F052437771A00C13AC0 /* deserialization */ = {
+			isa = PBXGroup;
+			children = (
+				B7EFD22A246B8A7500788671 /* TrackerResponseMap.swift */,
+				B7EFD224246AEA9700788671 /* TrackerUserMap.swift */,
+				0D3A888F2A2756BB005D0FD2 /* UserRegistrationMap.swift */,
+				0D3A886E2A2743E5005D0FD2 /* UploadActivitiesMap.swift */,
+				0D3A88712A274437005D0FD2 /* UploadBatteriesMap.swift */,
+				0D3A88742A27444D005D0FD2 /* UploadLocationsMap.swift */,
+				0D3A88772A27445F005D0FD2 /* UploadStepsMap.swift */,
+				0D3A887A2A274467005D0FD2 /* UploadTripsMap.swift */,
+			);
+			path = deserialization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D15F61C271464C4002183DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D15F61D271464C4002183DA /* Tracker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EB949C241FEE6000790A33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EB94B2241FEE6000790A33 /* Tracker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D15F61A271464C4002183DA /* TrackerWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D15F66D271464C4002183DA /* Build configuration list for PBXNativeTarget "TrackerWatch" */;
+			buildPhases = (
+				6F9AF73F748569772245A14E /* [CP] Check Pods Manifest.lock */,
+				0D15F61C271464C4002183DA /* Headers */,
+				0D15F61E271464C4002183DA /* Sources */,
+				0D15F66A271464C4002183DA /* Frameworks */,
+				0D15F66C271464C4002183DA /* Resources */,
+				0D9D875F28C65BE400802F1F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackerWatch;
+			productName = Tracker;
+			productReference = 0D15F670271464C4002183DA /* TrackerWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7EB94A0241FEE6000790A33 /* Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EB94B5241FEE6000790A33 /* Build configuration list for PBXNativeTarget "Tracker" */;
+			buildPhases = (
+				6B871E65AEA43A670B7B98E8 /* [CP] Check Pods Manifest.lock */,
+				B7EB949C241FEE6000790A33 /* Headers */,
+				B7EB949D241FEE6000790A33 /* Sources */,
+				B7EB949E241FEE6000790A33 /* Frameworks */,
+				B7EB949F241FEE6000790A33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tracker;
+			productName = Tracker;
+			productReference = B7EB94A1241FEE6000790A33 /* Tracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7EB94A9241FEE6000790A33 /* TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EB94B8241FEE6000790A33 /* Build configuration list for PBXNativeTarget "TrackerTests" */;
+			buildPhases = (
+				044DBBA488B3375475A4DD2C /* [CP] Check Pods Manifest.lock */,
+				B7EB94A6241FEE6000790A33 /* Sources */,
+				B7EB94A7241FEE6000790A33 /* Frameworks */,
+				B7EB94A8241FEE6000790A33 /* Resources */,
+				D35C808E6DA8F39220E5D70B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7EB94AD241FEE6000790A33 /* PBXTargetDependency */,
+			);
+			name = TrackerTests;
+			productName = TrackerTests;
+			productReference = B7EB94AA241FEE6000790A33 /* TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7EB9498241FEE6000790A33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = "Active Orbit";
+				TargetAttributes = {
+					B7EB94A0241FEE6000790A33 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+					B7EB94A9241FEE6000790A33 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = B7EB949B241FEE6000790A33 /* Build configuration list for PBXProject "Tracker" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7EB9497241FEE6000790A33;
+			productRefGroup = B7EB94A2241FEE6000790A33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7EB94A0241FEE6000790A33 /* Tracker */,
+				B7EB94A9241FEE6000790A33 /* TrackerTests */,
+				0D15F61A271464C4002183DA /* TrackerWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D15F66C271464C4002183DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EB949F241FEE6000790A33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EB94A8241FEE6000790A33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		044DBBA488B3375475A4DD2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B871E65AEA43A670B7B98E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F9AF73F748569772245A14E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrackerWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D35C808E6DA8F39220E5D70B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrackerTests/Pods-TrackerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrackerTests/Pods-TrackerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrackerTests/Pods-TrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D15F61E271464C4002183DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D15F61F271464C4002183DA /* TrackerSummaryManager.swift in Sources */,
+				0D15F620271464C4002183DA /* TrackerString.swift in Sources */,
+				0D15F622271464C4002183DA /* TrackerTableSummaries.swift in Sources */,
+				0D15F624271464C4002183DA /* TrackerBundle.swift in Sources */,
+				0D15F626271464C4002183DA /* TrackerStringExtension.swift in Sources */,
+				0D15F627271464C4002183DA /* TrackerTargetApp.swift in Sources */,
+				0D15F628271464C4002183DA /* TrackerDBActivity.swift in Sources */,
+				0D15F629271464C4002183DA /* TrackerLogLevel.swift in Sources */,
+				0D15F62B271464C4002183DA /* TrackerDoubleExtension.swift in Sources */,
+				0D15F62C271464C4002183DA /* TrackerTableLocations.swift in Sources */,
+				0D15F62D271464C4002183DA /* TrackerUtils.swift in Sources */,
+				0D15F62E271464C4002183DA /* TrackerClosures.swift in Sources */,
+				0D15F630271464C4002183DA /* TrackerLogger.swift in Sources */,
+				0D15F631271464C4002183DA /* TrackerTimeUtils.swift in Sources */,
+				0D15F632271464C4002183DA /* TrackerPermissions.swift in Sources */,
+				0D15F633271464C4002183DA /* TrackerRoutinePreferences.swift in Sources */,
+				0D15F635271464C4002183DA /* TrackerAnalyser.swift in Sources */,
+				0D15F637271464C4002183DA /* TrackerDistanceUtils.swift in Sources */,
+				0D15F638271464C4002183DA /* TrackerCaloriesUtils.swift in Sources */,
+				0D15F639271464C4002183DA /* TrackerLocationUtils.swift in Sources */,
+				0D15F63A271464C4002183DA /* TrackerBasePreferences.swift in Sources */,
+				0D15F63B271464C4002183DA /* TrackerBackendPreferences.swift in Sources */,
+				0D15F67D27146BA8002183DA /* TrackerDateExtension.swift in Sources */,
+				0D15F63C271464C4002183DA /* TrackerPedometerManager.swift in Sources */,
+				0D7451A62A38BCD9008D6459 /* TrackerSequenceExtension.swift in Sources */,
+				0D15F63D271464C4002183DA /* TrackerRealmExtension.swift in Sources */,
+				0D15F63E271464C4002183DA /* TrackerProtocol.swift in Sources */,
+				0D15F641271464C4002183DA /* TrackerTableBriskWalking.swift in Sources */,
+				0D15F642271464C4002183DA /* TrackerSegmentsManager.swift in Sources */,
+				0D15F644271464C4002183DA /* TrackerTableSegments.swift in Sources */,
+				0D15F646271464C4002183DA /* TrackerDBBriskWalking.swift in Sources */,
+				0D15F648271464C4002183DA /* TrackerLocaleUtils.swift in Sources */,
+				0D15F649271464C4002183DA /* TrackerPreferencesKeys.swift in Sources */,
+				0D15F64A271464C4002183DA /* TrackerOptionsPreferences.swift in Sources */,
+				0D15F64B271464C4002183DA /* TrackerLocationAccuracy.swift in Sources */,
+				0D15F64C271464C4002183DA /* TrackerDBSummary.swift in Sources */,
+				0D15F64D271464C4002183DA /* TrackerUserGender.swift in Sources */,
+				0D15F64E271464C4002183DA /* TrackerExtensions.swift in Sources */,
+				0D15F651271464C4002183DA /* TrackerGson.swift in Sources */,
+				0D15F652271464C4002183DA /* TrackerUserPreferences.swift in Sources */,
+				0D15F654271464C4002183DA /* TrackerStepModel.swift in Sources */,
+				0D15F656271464C4002183DA /* TrackerTrackingPreferences.swift in Sources */,
+				0D15F657271464C4002183DA /* TrackerPreferences.swift in Sources */,
+				0D15F67F27146EB2002183DA /* TrackerManager.swift in Sources */,
+				0D15F658271464C4002183DA /* TrackerConstants.swift in Sources */,
+				0D15F65A271464C4002183DA /* TrackerActivityType.swift in Sources */,
+				0D15F65B271464C4002183DA /* TrackerDBSegment.swift in Sources */,
+				0D15F65C271464C4002183DA /* TrackerDBLocation.swift in Sources */,
+				0D15F65D271464C4002183DA /* TrackerMotionManager.swift in Sources */,
+				0D15F65E271464C4002183DA /* TrackerConfigurationPreferences.swift in Sources */,
+				0D15F65F271464C4002183DA /* TrackerUserAgeRange.swift in Sources */,
+				0D15F660271464C4002183DA /* TrackerDictionaryExtension.swift in Sources */,
+				0D15F661271464C4002183DA /* TrackerException.swift in Sources */,
+				0D15F662271464C4002183DA /* TrackerTablePedometer.swift in Sources */,
+				0D15F664271464C4002183DA /* TrackerTableActivities.swift in Sources */,
+				0D15F665271464C4002183DA /* TrackerTextUtils.swift in Sources */,
+				0D15F666271464C4002183DA /* TrackerDBPedometer.swift in Sources */,
+				0D15F668271464C4002183DA /* TrackerConfig.swift in Sources */,
+				0D15F669271464C4002183DA /* TrackerDBModel.swift in Sources */,
+				0D15F67B271466A1002183DA /* TrackerDatabase.swift in Sources */,
+				0D15F68027146F28002183DA /* TrackerEnvironment.swift in Sources */,
+				0D15F67E27146CC3002183DA /* TrackerConnectionResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EB949D241FEE6000790A33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EFD232246D94E100788671 /* TrackerSummaryManager.swift in Sources */,
+				0D3A88902A2756BB005D0FD2 /* UserRegistrationMap.swift in Sources */,
+				B7AB75D22428FF25004080BD /* TrackerString.swift in Sources */,
+				B70651A124362021009BC292 /* TrackerTableSummaries.swift in Sources */,
+				B7F92EF72437683200C13AC0 /* TrackerConnectionResult.swift in Sources */,
+				B7AB75BA2422E5F8004080BD /* TrackerBundle.swift in Sources */,
+				B706AF12243E0290000EB2B2 /* TrackerManager.swift in Sources */,
+				B7741F12242E4FA600D5406A /* TrackerStringExtension.swift in Sources */,
+				B7EFD1FF24621D4200788671 /* TrackerTargetApp.swift in Sources */,
+				B7741F17242E55B700D5406A /* TrackerDBActivity.swift in Sources */,
+				0D7577EE264EA63A00FA0B27 /* TrackerLogLevel.swift in Sources */,
+				B7A5F93C24587410001CBF64 /* TrackerLocationManager.swift in Sources */,
+				0D73C035258AE5E4005189F9 /* TrackerDoubleExtension.swift in Sources */,
+				0D3A88502A263587005D0FD2 /* ActivitiesRequest.swift in Sources */,
+				B706519B24361FF9009BC292 /* TrackerTableLocations.swift in Sources */,
+				0D3A888D2A275650005D0FD2 /* TrackerUserEngineLegacy.swift in Sources */,
+				B7EB94BD242003EB00790A33 /* TrackerUtils.swift in Sources */,
+				B7A5F94524588886001CBF64 /* TrackerClosures.swift in Sources */,
+				B7EFD22B246B8A7500788671 /* TrackerResponseMap.swift in Sources */,
+				0D3A88722A274437005D0FD2 /* UploadBatteriesMap.swift in Sources */,
+				B7EB957324205C6500790A33 /* TrackerLogger.swift in Sources */,
+				0D3A88662A263C6A005D0FD2 /* TripsRequest.swift in Sources */,
+				0D3A88602A263A7E005D0FD2 /* LocationsRequest.swift in Sources */,
+				B7741F0E242E4DC700D5406A /* TrackerTimeUtils.swift in Sources */,
+				B7741F0A242E4BBD00D5406A /* TrackerPermissions.swift in Sources */,
+				B7741F07242E474E00D5406A /* TrackerRoutinePreferences.swift in Sources */,
+				B706AF0D243DFE5B000EB2B2 /* TrackerEnvironment.swift in Sources */,
+				B7A64494245AFF3F004B2420 /* TrackerAnalyser.swift in Sources */,
+				B7EFD227246AF3D800788671 /* TrackerUploadDataEngine.swift in Sources */,
+				0D73C031258AE4E4005189F9 /* TrackerDistanceUtils.swift in Sources */,
+				0D73C03C258AEA3F005189F9 /* TrackerCaloriesUtils.swift in Sources */,
+				B79DA8C72461B95500BE5D73 /* TrackerLocationUtils.swift in Sources */,
+				B7741EFF242E417E00D5406A /* TrackerBasePreferences.swift in Sources */,
+				B7F92EFD2437699200C13AC0 /* TrackerBackendPreferences.swift in Sources */,
+				B7A64496245B2841004B2420 /* TrackerPedometerManager.swift in Sources */,
+				0DC57338264D6A7400BF5381 /* TrackerRealmExtension.swift in Sources */,
+				B706519324361412009BC292 /* TrackerProtocol.swift in Sources */,
+				B7F92F072437773400C13AC0 /* TrackerApiManager.swift in Sources */,
+				B706519724361FD9009BC292 /* TrackerTableBriskWalking.swift in Sources */,
+				B7A6449D24603C3F004B2420 /* TrackerSegmentsManager.swift in Sources */,
+				B7F92EF92437685000C13AC0 /* TrackerApi.swift in Sources */,
+				B706519F24362013009BC292 /* TrackerTableSegments.swift in Sources */,
+				B7EFD225246AEA9900788671 /* TrackerUserMap.swift in Sources */,
+				B70651212432425A009BC292 /* TrackerDBBriskWalking.swift in Sources */,
+				B7AB75DF242900A9004080BD /* TrackerColor.swift in Sources */,
+				B706AF0F243E002A000EB2B2 /* TrackerLocaleUtils.swift in Sources */,
+				B7741F05242E41C700D5406A /* TrackerPreferencesKeys.swift in Sources */,
+				0D1BBBA52562CA6C000AB63F /* TrackerOptionsPreferences.swift in Sources */,
+				B7F92EE92437614300C13AC0 /* TrackerLocationAccuracy.swift in Sources */,
+				0D3A885D2A26392D005D0FD2 /* BatteriesRequest.swift in Sources */,
+				B706512924324297009BC292 /* TrackerDBSummary.swift in Sources */,
+				B70651602434E2F7009BC292 /* TrackerUserGender.swift in Sources */,
+				0D7451A52A38BCD9008D6459 /* TrackerSequenceExtension.swift in Sources */,
+				0D3A88872A275062005D0FD2 /* StepsUploader.swift in Sources */,
+				B736C65A242967D900960D8A /* TrackerExtensions.swift in Sources */,
+				B7EFD2212469A57A00788671 /* TrackerUserEngine.swift in Sources */,
+				B7AB75D824290003004080BD /* TrackerImage.swift in Sources */,
+				0D3A88572A26360F005D0FD2 /* BaseRequest.swift in Sources */,
+				B7F92EF12437658C00C13AC0 /* TrackerGson.swift in Sources */,
+				B7741F03242E419E00D5406A /* TrackerUserPreferences.swift in Sources */,
+				B7EFD2232469A73600788671 /* TrackerDeviceExtension.swift in Sources */,
+				B7EFD208246455B200788671 /* TrackerStepModel.swift in Sources */,
+				0D3A88532A2635EB005D0FD2 /* EmptyRequest.swift in Sources */,
+				B7741F0C242E4D8C00D5406A /* TrackerDateExtension.swift in Sources */,
+				0D3A886F2A2743E5005D0FD2 /* UploadActivitiesMap.swift in Sources */,
+				B7F92EEB243761AE00C13AC0 /* TrackerTrackingPreferences.swift in Sources */,
+				B7741F01242E418900D5406A /* TrackerPreferences.swift in Sources */,
+				B7EB957524205D4400790A33 /* TrackerConstants.swift in Sources */,
+				0D3A88692A273D80005D0FD2 /* UserRegistrationRequest.swift in Sources */,
+				B7F92EFF24376A7900C13AC0 /* TrackerConnection.swift in Sources */,
+				B7A5F9392458715A001CBF64 /* TrackerActivityType.swift in Sources */,
+				B70651272432428B009BC292 /* TrackerDBSegment.swift in Sources */,
+				B70651232432426F009BC292 /* TrackerDBLocation.swift in Sources */,
+				B7A5F94D2459E658001CBF64 /* TrackerMotionManager.swift in Sources */,
+				B7EB4BD7247C46370040AF0B /* TrackerConfigurationPreferences.swift in Sources */,
+				0D3A886C2A274051005D0FD2 /* ActivitiesUploader.swift in Sources */,
+				B70651622434E309009BC292 /* TrackerUserAgeRange.swift in Sources */,
+				0D3A88752A27444D005D0FD2 /* UploadLocationsMap.swift in Sources */,
+				B7EFD229246B7DD400788671 /* TrackerDictionaryExtension.swift in Sources */,
+				0D3A888A2A275068005D0FD2 /* TripsUploader.swift in Sources */,
+				0D3A887E2A274EAE005D0FD2 /* UploaderLegacy.swift in Sources */,
+				0D3A88782A27445F005D0FD2 /* UploadStepsMap.swift in Sources */,
+				B7AB75DD2429007E004080BD /* TrackerException.swift in Sources */,
+				B706519D24362007009BC292 /* TrackerTablePedometer.swift in Sources */,
+				B7F92EFB2437689100C13AC0 /* TrackerWebService.swift in Sources */,
+				B7741F1D242E56FB00D5406A /* TrackerTableActivities.swift in Sources */,
+				0D3A88842A275057005D0FD2 /* LocationsUploader.swift in Sources */,
+				B7741F10242E4E2600D5406A /* TrackerTextUtils.swift in Sources */,
+				0D3A887B2A274467005D0FD2 /* UploadTripsMap.swift in Sources */,
+				0D3A885A2A263624005D0FD2 /* BaseDataRequest.swift in Sources */,
+				B706512524324280009BC292 /* TrackerDBPedometer.swift in Sources */,
+				B7F92EF5243767F000C13AC0 /* TrackerNetwork.swift in Sources */,
+				B7EB4BD9247C4AD00040AF0B /* TrackerConfig.swift in Sources */,
+				B7741F19242E55FE00D5406A /* TrackerDBModel.swift in Sources */,
+				0D3A88812A27504C005D0FD2 /* BatteriesUploader.swift in Sources */,
+				0D15F67C271466A8002183DA /* TrackerDatabase.swift in Sources */,
+				0D3A88632A263BD2005D0FD2 /* StepsRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EB94A6241FEE6000790A33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EB94B0241FEE6000790A33 /* TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7EB94AD241FEE6000790A33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7EB94A0241FEE6000790A33 /* Tracker */;
+			targetProxy = B7EB94AC241FEE6000790A33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D15F66E271464C4002183DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91DFBA4CF75B33FC3640786 /* Pods-TrackerWatch.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8G3NNGUFNQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Tracker/supportingFiles/plists/TrackerWatch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				"OTHER_CFLAGS[arch=*]" = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aeqora.tracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		0D15F66F271464C4002183DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F14B584D39EEDA585FDAA18 /* Pods-TrackerWatch.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8G3NNGUFNQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Tracker/supportingFiles/plists/TrackerWatch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				"OTHER_CFLAGS[arch=*]" = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aeqora.tracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		B7EB94B3241FEE6000790A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CFLAGS[arch=*]" = "-fembed-bitcode";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		B7EB94B4241FEE6000790A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				"OTHER_CFLAGS[arch=*]" = "-fembed-bitcode";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		B7EB94B6241FEE6000790A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707AD8CAF54B8CF2410E900B /* Pods-Tracker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8G3NNGUFNQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Tracker/supportingFiles/plists/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				"OTHER_CFLAGS[arch=*]" = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aeqora.tracker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7EB94B7241FEE6000790A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2060C69ED8B757BB893E6BF /* Pods-Tracker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8G3NNGUFNQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Tracker/supportingFiles/plists/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				"OTHER_CFLAGS[arch=*]" = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aeqora.tracker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7EB94B9241FEE6000790A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092520FA02E3238FFEE298EB /* Pods-TrackerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G3NNGUFNQ;
+				INFOPLIST_FILE = TrackerTests/supportingFiles/plists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aeqora.TrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7EB94BA241FEE6000790A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C5328A141F739B75DC483B /* Pods-TrackerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G3NNGUFNQ;
+				INFOPLIST_FILE = TrackerTests/supportingFiles/plists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aeqora.TrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D15F66D271464C4002183DA /* Build configuration list for PBXNativeTarget "TrackerWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D15F66E271464C4002183DA /* Debug */,
+				0D15F66F271464C4002183DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EB949B241FEE6000790A33 /* Build configuration list for PBXProject "Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EB94B3241FEE6000790A33 /* Debug */,
+				B7EB94B4241FEE6000790A33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EB94B5241FEE6000790A33 /* Build configuration list for PBXNativeTarget "Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EB94B6241FEE6000790A33 /* Debug */,
+				B7EB94B7241FEE6000790A33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EB94B8241FEE6000790A33 /* Build configuration list for PBXNativeTarget "TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EB94B9241FEE6000790A33 /* Debug */,
+				B7EB94BA241FEE6000790A33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7EB9498241FEE6000790A33 /* Project object */;
+}
